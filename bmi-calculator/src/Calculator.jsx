@@ -1,47 +1,3 @@
-# Ex06 BMI Calculator
-## Name:HARISELVAN S
-## Reg No:212224040103
-## Date:09-11-2025
-
-## AIM
-To create a BMI calculator using React Router 
-
-## ALGORITHM
-### STEP 1 State Initialization
-Manage the current page (Home or Calculator) using React Router.
-
-### STEP 2 User Input
-Accept weight and height inputs from the user.
-
-### STEP 3 BMI Calculation
-Calculate the BMI based on user input.
-
-### STEP 4 Categorization
-Classify the BMI result into categories (Underweight, Normal weight, Overweight, Obesity).
-
-### STEP 5 Navigation
-Navigate between pages using React Router.
-
-## PROGRAM
-## Home.jsx:
-```
-import React from 'react';
-import Calculator from './Calculator';
-
-const Home = () => {
-  return (
-    <div>
-      <Calculator/>
-    </div>
-  );
-};
-
-export default Home;
-```
-
-## Calculator.jsx:
-
-```
 import React, { useState } from 'react';
 
 const Calculator = () => {
@@ -100,10 +56,3 @@ const Calculator = () => {
 };
 
 export default Calculator;
-```
-
-## OUTPUT
-
-![alt text](image.png)
-## RESULT
-The program for creating BMI Calculator using React Router is executed successfully.
